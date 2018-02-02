@@ -14,6 +14,10 @@ function [data] = binning(data,N)
 % of neighbors. For example, if N = 3, binning averages each point 
 % with eight points immediately surrounding it. 
 
+
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
 %% Code
 avePattern = ones(N,N);
 for i = 1:size(data,3)

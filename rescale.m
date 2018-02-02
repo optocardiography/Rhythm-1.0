@@ -23,6 +23,10 @@ function [B lims] = rescale(A, lims, out_lims)
 
 % Copyright: Oliver Woodford, 2009 - 2011
 
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
+
 if nargin < 3
     out_lims = [0 1];
 end

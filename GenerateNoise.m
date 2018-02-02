@@ -20,6 +20,9 @@ function noise = GenerateNoise (sf, dur, noisetype, lf, hf)
 % frequency of 5000-Hz
 % filterednoise = GenerateFilteredNoise (44100, 500, 'lowpass', 5000);
 
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
 if nargin < 3
     % set general variables
     numberofsamples = round(sf*(dur/1000)); % number of samples

@@ -30,5 +30,8 @@ function map = jet(varargin)
 % $Id: jet.m,v 1.2 2009/04/10 13:00:33 ojw Exp $
 % Copyright: Oliver Woodford, 2009
 
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
 map = [0 0 0.5 1; 0 0 1 2; 0 1 1 2; 1 1 0 2; 1 0 0 1; 0.5 0 0 0];
 map = colormap_helper(map, varargin{:});

@@ -1,4 +1,6 @@
 function cmosData = CMOSconverter(olddir,oldfilename)
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
 x2rot = 0;
 flip = 0;
 newfilename = [oldfilename(1:length(oldfilename)-3),'mat'];

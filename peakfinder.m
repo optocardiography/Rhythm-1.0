@@ -42,6 +42,9 @@ function varargout = peakfinder(x0, sel, thresh, extrema)
 %
 % Copyright Nathanael C. Yoder 2011 (nyoder@gmail.com)
 
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
 % Perform error checking and set defaults if not passed in
 error(nargchk(1,4,nargin,'struct'));
 error(nargoutchk(0,2,nargout,'struct'));

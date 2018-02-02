@@ -27,15 +27,12 @@ function [apdC] = apdCalc(data,start,endp,Fs,percent,maxAPD,minAPD,motion,coordi
 %at which the maximum of the signal falls to the desired percentage. APD is
 %the difference between the two time points. 
 
-% REFERENCES
-%None
-
-% ADDITIONAL NOTES
-% None
-
 % RELEASE VERSION 1.0.0
 
 % AUTHOR: Matt Sulkin (sulkin.matt@gmail.com)
+
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
 
 %% Create initial variablesns
 start=round(start*Fs);

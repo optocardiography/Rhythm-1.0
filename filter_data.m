@@ -18,6 +18,9 @@ function filt_data = filter_data(data,Fs,or,lb,hb)
 % the filter and the low and high passband threshold frequencies.
 % The code for a Butterworth filter and Chebyshev II filter, with infinite impulse response, is also provided.
 
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
     %% FIR filter
     % FIR filter implemented with Parks-McClellan Remez Exchange Algorithm
     tic

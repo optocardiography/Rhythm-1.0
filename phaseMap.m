@@ -1,4 +1,8 @@
 function phaseMap(data,directory,starttime,endtime,Fs)
+
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
     movname = [directory,'/','phasemovie' '.avi'];
     vidObj = avifile(movname,'compression','None');
     data = data(:,:,round(starttime*Fs+1):round(endtime*Fs));

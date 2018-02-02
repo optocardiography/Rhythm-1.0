@@ -1,4 +1,7 @@
 function calDomFreq(data,Fs)
+
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
 %% Window Data with Tukey Window to Minimize Edge Effects
 w_m = tukeywin(size(data,3),.05);
 win = repmat(permute(w_m,[3 2 1]),[size(data,1),size(data,2)]);

@@ -1,4 +1,8 @@
 function seg_Data(data,st_time,ed_time,Fs,bg,grp_nbr)
+
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
 %% Create initial variables
 st_frame=round(st_time*Fs);
 ed_frame=round(ed_time*Fs);

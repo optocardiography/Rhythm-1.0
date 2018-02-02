@@ -50,6 +50,9 @@ function [B lims map] = real2rgb(A, cmap, lims)
 % Thank you to Peter Nave for reporting a bug whereby colormaps larger than
 % 256 entries long are returned.
 
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
 % Don't do much if A is wrong size
 [y x c] = size(A);
 if c > 1

@@ -52,6 +52,9 @@ function new_data = remove_BKGRD(data,bg,thresh,perc_ex)
 
 % RELEASE VERSION 1.0.1
 
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
 % AUTHOR: Jacob Laughner (jacoblaughner@gmail.com)
 %% Method 1: Edge Detection
 % % Find threshold for edge detection of background image

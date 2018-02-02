@@ -24,13 +24,12 @@ function [actMap1] = aMap(data,stat,endp,Fs,bg)
 % An activation map is calculated by finding the time of the maximum derivative 
 % of each pixel in the specified time-windowed data.
 
-% REFERENCES
-
-% ADDITIONAL NOTES
-
-% RELEASE VERSION 1.0.1
-
 % AUTHOR: Qing Lou, Jacob Laughner (jacoblaughner@gmail.com)
+
+
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
 %% Code
 % Create initial variables
 stat=round(stat*Fs);

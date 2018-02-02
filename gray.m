@@ -30,5 +30,8 @@ function map = gray(varargin)
 % $Id: gray.m,v 1.2 2009/04/10 13:00:32 ojw Exp $
 % Copyright: Oliver Woodford, 2009
 
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
 map = [0 0 0; 1 1 1];
 map = colormap_helper(map, varargin{:});

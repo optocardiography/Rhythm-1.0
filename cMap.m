@@ -53,6 +53,10 @@ function [cMap] = cMap(data,stat,endp,Fs,bg,rect)
 
 % AUTHOR: Jacob Laughner (jacoblaughner@gmail.com)
 
+
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
 %% Code
 %% Find Activation Times for Polynomial Surface
 stat=round(stat*Fs);

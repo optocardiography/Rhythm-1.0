@@ -29,6 +29,11 @@ function new_data = remove_Drift(data,ord_str)
 % RELEASE VERSION 1.0.0
 
 % AUTHOR: Jacob Laughner (jacoblaughner@gmail.com)
+
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
+
 %% Code
 tempx = 1:size(data,3);
 tempy = reshape(data,size(data,1)*size(data,2),[]);

@@ -4,10 +4,9 @@ close all; clc
 % Matlab software for analyzing optical mapping data
 
 % By Matt Sulkin, Jake Laughner, Xinyuan Sophia Cui, Jed Jackoway
-% Washington University in St. Louis -- Efimov Lab
 
-% For any questions and suggestions, please email us at:
-% jacoblaughner@gmail.com or igor@wustl.edu
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
 
 %% Create GUI structure
 scrn_size = get(0,'ScreenSize');

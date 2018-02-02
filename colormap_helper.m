@@ -32,6 +32,9 @@ function map = colormap_helper(map, len, lims)
 % $Id: colormap_helper.m,v 1.4 2009/04/13 12:16:22 ojw Exp $
 % Copyright: Oliver Woodford, 2009
 
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
 if nargin < 2
    len = size(get(gcf, 'Colormap'), 1);
 end

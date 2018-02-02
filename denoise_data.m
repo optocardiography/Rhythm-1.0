@@ -25,6 +25,10 @@ function new_data = denoise_data(data,Fs,bg)
 % the data above 50 Hz. Additionally, this code was written to fill holes
 % in the mask.  This can be changed below at line 52.
 
+
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
 %% Code
 % Window Data with Tukey Window to Minimize Edge Effects
 w_m = tukeywin(size(data,3),.05);

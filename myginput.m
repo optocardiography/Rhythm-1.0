@@ -31,6 +31,9 @@ function [out1,out2,out3] = myginput(arg1,strpointertype)
 %                    ML7.00)
 % 2006/10/24: v1.02, help text improved
 
+% Email optocardiography@gmail.com for any questions or concerns.
+% Refer to efimovlab.org for more information.
+
 out1 = []; out2 = []; out3 = []; y = [];
 
 if nargin<1     % modified MYGINPUT
